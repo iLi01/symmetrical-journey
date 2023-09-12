@@ -6,24 +6,12 @@
   
 }
 
-#nav-section {
-  display: flex;
-  justify-content: space-between;
-}
-
 #logo-img {
-  height: 8vh;
-  align-self: center;
+  height: 4.2vh;
 }
 
 .menu-text {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.menu-text li {
-  padding: 2vh;
-  list-style: none;
+  display: none;
 }
 
 .image-slideshow {
@@ -49,10 +37,30 @@
   to {opacity: 1}
 }
 
+#hero-text{
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
 @media screen and (min-width: 800px) {
   .image-slideshow img {
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     object-fit: cover;
+  }
+
+  .menu-text {
+    display: flex;
+    justify-content: right;
+  }
+  
+  .menu-text li {
+    padding: 2vh;
+    list-style: none;
+  }
+
+  #logo-img {
+    height: 8vh;
   }
 }
