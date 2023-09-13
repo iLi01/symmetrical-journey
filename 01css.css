@@ -51,6 +51,14 @@
   to {opacity: 1}
 }
 
+#first-word {
+  font-size: 3.5rem;
+  font-weight: 1000;
+  letter-spacing: 0.6rem;
+  line-height: 3.3rem;
+  color: rgb(255, 255, 255);
+}
+
 #hero-text{
   position: absolute;
   bottom: 2rem;
@@ -65,12 +73,12 @@
   line-height: 1.5rem;
 }
 
-#first-word {
-  font-size: 3.5rem;
-  font-weight: 1000;
-  letter-spacing: 0.6rem;
-  line-height: 3.3rem;
-  color: rgb(255, 255, 255);
+#hero-button {
+  border: none;
+  border-radius: 0.8rem;
+  margin: 0;
+  padding: 1rem;
+  background-color: white;
 }
 
 @media screen and (min-width: 800px) {
@@ -92,6 +100,13 @@
     height: 8vh;
   }
 
+  #first-word {
+    font-size: 7rem;
+    font-weight: 1000;
+    letter-spacing: 0.9rem;
+    line-height: 7.5rem;
+  }
+
   #hero-text{
     bottom: 6rem;
     right: 3.5rem;
@@ -102,10 +117,5 @@
     font-weight: 600;
   }
 
-  #first-word {
-    font-size: 7rem;
-    font-weight: 1000;
-    letter-spacing: 0.9rem;
-    line-height: 7.5rem;
-  }
+  
 }
