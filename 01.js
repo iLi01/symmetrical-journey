@@ -11,5 +11,5 @@ function displayImages() {
     index = 1;
   }
   images[index-1].style.display = "block";
-  setTimeout(displayImages, 3700); // Change image every 3.7 seconds
+  setTimeout(displayImages, 4000); // Change image every 3.7 seconds
 }
